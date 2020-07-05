@@ -1,0 +1,93 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: center;
+    font-family: 'Nunito'
+}
+.header ul {
+    margin: 0;
+    padding: 10px;
+}
+body {
+    background-color: #dbdbdb;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: coral;
+    font-size: 1.1em;
+    padding: 1%;
+    border-bottom: 1px solid black;
+}
+.nav .logo{
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+}
+.nav p{
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Nunito';
+    font-size: 18px;
+    float: left;
+    vertical-align: middle;
+}
+.nav .menu{
+    margin-left: 3%;
+    margin-right: 3%;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.intro{
+    margin-top:80px;
+}
+
+.intro .logo{
+    display: inline-block;
+}
+.intro .wedo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    vertical-align: bottom ;
+}
+.wedo p{
+    color: white;
+    font-family: 'Nunito';
+    max-width: 600px;
+    font-size: 24px;
+    vertical-align: middle ;
+}
+.wedo a{
+    background-color: coral;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content {
+    background-color: #000839;
+    color: white;
+}
+.footer {
+    background-color: #00a8cc;
+}
